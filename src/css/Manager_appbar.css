@@ -1,0 +1,47 @@
+.manager-appbar {
+    background-color: #3f51b5;
+    margin-bottom: 38%;
+  }
+  
+  .appbar-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .manager-icon-button {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .manager-icon-button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.1);
+  }
+  
+  .manager-menu {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .manager-menu-item {
+    transition: background-color 0.3s ease, transform 0.3s;
+  }
+  
+  .manager-menu-item:hover {
+    background-color: #f1f1f1;
+    transform: translateX(10px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

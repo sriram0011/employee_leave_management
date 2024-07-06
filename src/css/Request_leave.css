@@ -1,0 +1,88 @@
+/* .leave-container {
+    margin: 20px;
+}
+
+.leave-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leave-table th, .leave-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.leave-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.leave-table td {
+    text-align: center;
+}
+
+.accept-btn, .reject-btn {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accept-btn {
+    background-color: #4caf50; 
+    color: white;
+}
+
+.reject-btn {
+    background-color: #f44336; 
+    color: white;
+}
+
+.accept-btn:hover, .reject-btn:hover {
+    background-color: #45a049; 
+} */
+
+#button1
+{
+    margin-left: 90%;
+    margin-top: 40%;
+}
+
+.leave-container {
+    margin: 20px;
+}
+
+.leave-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leave-table th, .leave-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.leave-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.accept-btn, .reject-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+} 
+
+

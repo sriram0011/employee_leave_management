@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .custom-appbar {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    margin-bottom: 40%;
+    
+  }
+  
+  .appbar-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+     width: 1000px; 
+     
+  }
+  
+  .MuiIconButton-root {
+    color: white;
+    
+  }
+  
+  #menu-appbar .MuiPaper-root {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  #menu-appbar .MuiMenuItem-root:hover {
+    background-color: #f1f1f1;
+  }
+  .custom-menu {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .custom-menu-item {
+    transition: background-color 0.3s ease, transform 0.3s;
+  }
+
+  .custom-menu-item:hover {
+    background-color: #f1f1f1;
+    transform: translateX(10px);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
